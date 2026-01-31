@@ -2,7 +2,7 @@
 
 Este projeto consiste em um sistema de Visão Computacional, capaz de identificar e demarcar buracos em vias públicas com **94% de precisão**. O objetivo é criar uma ferramenta automatizada para auxiliar na manutenção viária.
 
-![Exemplo de Deteção](https://raw.githubusercontent.com/JessicaFabiano/Deteccao-Buraco-Asfalto/refs/heads/main/teste2.png)
+![Exemplo de Deteção](https://github.com/JessicaFabiano/Deteccao-Buraco-Asfalto/blob/main/buraco_asfalto1.gif?raw=true)
 
 # O Desafio
 Durante o desenvolvimento, perebi um problema de **Data Leakage (Vazamento de Dados)**. Inicialmente, o modelo apresentava uma precisão de 99%. Ao investigar, descobri que o dataset não tinha uma separação física adequada entre treino e validação, fazendo com que a IA "decorasse" as respostas em vez de aprender padrões.
