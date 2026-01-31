@@ -1,6 +1,6 @@
 # Deteção de Buracos em Asfalto com YOLOv8
 
-Este projeto consiste em um sistema de Visão Computacional, capaz de identificar e demarcar buracos em vias públicas com **94% de precisão**. O objetivo é criar uma ferramenta automatizada para auxiliar na manutenção viária.
+Este projeto consiste em um sistema de Visão Computacional, capaz de identificar e demarcar buracos em vias públicas com **90% de precisão**. O objetivo é criar uma ferramenta automatizada para auxiliar na manutenção viária.
 
 ![Exemplo de Deteção](https://github.com/JessicaFabiano/Deteccao-Buraco-Asfalto/blob/main/buraco_asfalto1.gif?raw=true)
 
