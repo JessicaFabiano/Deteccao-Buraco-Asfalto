@@ -12,7 +12,7 @@ Para garantir a robustez do modelo, desenvolvi um **script de pré-processamento
 - Se a validação for insuficiente, o script isola aleatoriamente 15% das imagens (`random.shuffle`) antes do início do treino.
 - Reescreve o arquivo de configuração `data.yaml` para garantir que o modelo aponte para os diretórios corretos.
 
-Essa abordagem reduziu o "falso positivo" de 99% para uma métrica real e robusta de **90**, garantindo que o modelo funciona em imagens nunca vistas antes.
+Essa abordagem reduziu o "falso positivo" de 99% para uma métrica real e robusta de **90%**, garantindo que o modelo funciona em imagens nunca vistas antes.
 
 # Resultados
 O modelo final foi treinado utilizando **Transfer Learning** (baseado no YOLOv8 Nano) por 25 épocas.
